@@ -1,5 +1,5 @@
 {
-  "name": "@nilaybhima2018-nil-open-api2apigee",
+  "name": "nilaybhima2018-nil-open-api2apigee",
   "version": "1.6.0",
   "description": "A tool that converts openapi yaml file to Apigee API Proxy Bundle",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "coverage": "istanbul cover _mocha -- test/util test/commands -R spec"
   },
   "bin": {
-    "openapi2apigee": "bin/@nilaybhima2018-nil-open-api2apigee"
+    "openapi2apigee": "bin/nilaybhima2018-nil-open-api2apigee"
   },
   "repository": {
     "type": "git",
