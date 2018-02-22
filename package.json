@@ -1,5 +1,5 @@
 {
-  "name": "openapi2apigee",
+  "name": "openapi2apigee-nilay",
   "version": "0.6.1",
   "description": "A tool that converts openapi yaml file to Apigee API Proxy Bundle",
   "main": "index.js",
@@ -8,11 +8,11 @@
     "coverage": "istanbul cover _mocha -- test/util test/commands -R spec"
   },
   "bin": {
-    "openapi2apigee": "bin/openapi2apigee"
+    "openapi2apigee": "bin/nilay-openapi2apigee"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anil614sagar/openapi2apigee.git"
+    "url": "git+https://github.com/nilaybhima/openapi2apigee.git"
   },
   "keywords": [
     "Apigee",
@@ -23,12 +23,12 @@
     "Proxy",
     "Proxies"
   ],
-  "author": "Anil Sagar <anil614sagar@gmail.com> (https://in.linkedin.com/in/anilsagar/)",
+  "author": "Nilay Bhima",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anil614sagar/openapi2apigee/issues"
+    "url": "https://github.com/nilaybhima/openapi2apigee.git/issues"
   },
-  "homepage": "https://github.com/anil614sagar/openapi2apigee",
+  "homepage": "https://github.com/nilaybhima/openapi2apigee.git",
   "dependencies": {
     "apigeetool": "0.6.6",
     "async": "^2.1.2",
@@ -67,5 +67,9 @@
       "./lib/resource_templates/jsc/bundle-policify.js",
       "lib/resource_templates/jsc/bundle-policify.js"
     ]
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
